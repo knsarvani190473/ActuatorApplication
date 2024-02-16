@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 @Component
-@Endpoint(id = "custom")
+@Endpoint(id = "custom-endpoint")
 public class CustomEndpoint {
 
     private String initialString = "Hi using custom endpoint";
